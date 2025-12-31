@@ -1,0 +1,64 @@
+# Visual Studio and related
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output
+[Bb]in/
+[Oo]bj/
+_build/
+
+# NuGet
+packages/
+*.nupkg
+.nuget/
+
+# Publish output
+*.Publish.xml
+*.pubxml.user
+publish/
+
+# IIS Express
+IISExpress/
+
+# Rider/IDE
+.idea/
+.vscode/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Database files
+*.mdf
+*.ldf
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Misc
+*.cache
+*.db
+*.pdb
+*.ilk
+*.DS_Store
+
+# Web config/user secrets
+web.config.user
+appsettings.*.json
+
+# Ignore environment files
+.env
+
+# Temporary files
+*.tmp
+~*.*
+
+# Ignore compiled python/java artifacts
+*.pyc
+*.class
