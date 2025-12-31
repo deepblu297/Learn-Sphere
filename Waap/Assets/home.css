@@ -1,0 +1,66 @@
+﻿/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*padding-top: 70px;*/ /* Fix navbar overlap */
+    background-color: #f5f7fb;
+}
+
+/* HERO SECTION */
+/* HERO PHOTO BANNER */
+.hero-banner {
+    height: 500px;
+    background: url('../Assets/Images/hero-banner.jpg') center center / cover no-repeat;
+    position: relative;
+}
+
+/* NAVBAR LOGO */
+.navbar-logo {
+    height: 40px;
+    width: auto;
+}
+
+.nav-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+    /* DARK OVERLAY */
+    .hero-banner .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.55);
+    }
+
+    /* Text stays above overlay */
+    .hero-banner .container {
+        z-index: 2;
+    }
+
+}
+
+/* COURSE CARDS */
+.course-card {
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+    .course-card:hover {
+        transform: translateY(-8px);
+    }
+
+/* FOOTER */
+.footer {
+    background-color: #1e293b;
+    color: #cbd5e1;
+    padding: 20px 0;
+}
